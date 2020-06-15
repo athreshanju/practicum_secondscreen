@@ -31,11 +31,12 @@
                         getName:function(){
                             var url = new URL(window.location).searchParams.get("name")
                             console.log(url)
-                            return url
+                            return url;
                         }
                     }
                     x = myobject.getName();
-                    document.getElementById('.message').innerHTML= x;
+                    console.log(x)
+                    document.getElementById('message').innerHTML= x;
         
                 </Script>
                   <div class="dropdown-divider" ></div>
