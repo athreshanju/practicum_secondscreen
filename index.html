@@ -26,19 +26,7 @@
                      
                     </div>
                   </nav>
-                  <Script lang="javascript">
-                    var myobject={
-                        getName:function(){
-                            var url = new URL(window.location).searchParams.get("name")
-                            console.log(url)
-                            return url;
-                        }
-                    }
-                    x = myobject.getName();
-                    console.log(x)
-                    document.getElementById('message').innerHTML= x;
-        
-                </Script>
+                  
                   <div class="dropdown-divider" ></div>
 
                   <div class="container results-container">
@@ -64,7 +52,19 @@
                           </div>
                       
                   </div> 
+                  <Script lang="javascript">
+                    var myobject={
+                        getName:function(){
+                            var url = new URL(window.location).searchParams.get("name")
+                            console.log(url)
+                            return url;
+                        }
+                    }
+                    x = myobject.getName();
+                    console.log(x)
+                    document.getElementById('message').innerHTML= x;
         
+                </Script>
           
               
     </body>
