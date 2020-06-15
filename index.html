@@ -33,9 +33,9 @@
                    
 
                 
-                          <div class="card border-primary mb-3" style="width: 20rem ;height: 15rem">
+                          <div class="card border-primary mb-3" style="width: 20rem ;height: 20rem">
                               <div class="card-body">
-                                  <h3>Hi <p id ="message"></p></h3>
+                                  <p id ="message"></p>
                                   <h4 class="card-title">Do you have a MSIT program Email Account</h4>
                                   <div>
                                     <br>
@@ -54,10 +54,12 @@
                   </div> 
                   <Script lang="javascript">
                     var myobject={
+                      firstName:"Hi",
                         getName:function(){
+                            
                             var url = new URL(window.location).searchParams.get("name")
                             console.log(url)
-                            return url;
+                            return this.firstName + " " + url;
                         }
                     }
                     x = myobject.getName();
