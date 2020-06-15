@@ -57,3 +57,11 @@ navbar{
   /* height: 50%;
   width: 80%; */
 }
+p{
+  color: blue;
+  font-family: Calibri;
+  font-size: 300%;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
