@@ -24,7 +24,7 @@ navbar{
   color: red; /* White text */
   padding: 10px 50px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
-  float: left; /* Float the buttons side by side */
+  float: center; /* Float the buttons side by side */
   
 }
 
